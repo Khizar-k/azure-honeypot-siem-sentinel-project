@@ -5,7 +5,8 @@ Syslog
 | summarize eventCount = count() by ProcessName
 | top 10 by eventCount desc
 
-Screenshot
+Screenshot:
+screenshots/Honeypot-Project/Screenshot 2025-11-15 215237.png
 
 # Query 2  
 Top attacking IP addresses
@@ -16,7 +17,8 @@ Syslog
 | summarize eventCount = count() by SourceIP
 | top 10 by eventCount desc
 
-Screenshot  
+Screenshot:
+screenshots/Honeypot-Project/Screenshot 2025-11-15 215308.png
 
 # Query 3  
 Top events by severity level
@@ -25,4 +27,5 @@ Syslog
 | summarize eventCount = count() by SeverityLevel
 | top 10 by eventCount desc
 
-Screenshot  
+Screenshot:
+screenshots/Honeypot-Project/Screenshot 2025-11-15 215352.png
