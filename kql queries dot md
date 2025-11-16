@@ -1,0 +1,28 @@
+# Query 1  
+Top processes by event count
+
+Syslog
+| summarize eventCount = count() by ProcessName
+| top 10 by eventCount desc
+
+Screenshot
+
+# Query 2  
+Top attacking IP addresses
+
+Syslog
+| extend SourceIP = extract(@"b(d{1,3}(d{1,3}){3})b", 1, SyslogMessage)
+| where isnotempty(SourceIP)
+| summarize eventCount = count() by SourceIP
+| top 10 by eventCount desc
+
+Screenshot  
+
+# Query 3  
+Top events by severity level
+
+Syslog
+| summarize eventCount = count() by SeverityLevel
+| top 10 by eventCount desc
+
+Screenshot  
