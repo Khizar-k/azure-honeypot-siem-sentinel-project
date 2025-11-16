@@ -1,4 +1,0 @@
-Queiery 1:
-Syslog
- | summarize eventCount = count() by ProcessName
- | top 10 by eventCount desc
