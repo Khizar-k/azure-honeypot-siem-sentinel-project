@@ -6,7 +6,8 @@ Syslog
 | top 10 by eventCount desc
 
 Screenshot:
-screenshots/Honeypot-Project/Screenshot 2025-11-15 215237.png
+Screenshot  
+![Query1](../screenshots/Honeypot-Project/Screenshot 2025-11-15 215237.png)
 
 # Query 2  
 Top attacking IP addresses
