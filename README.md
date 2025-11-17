@@ -181,7 +181,7 @@ All resources used in the honeypot:
 
 ---
 
-# Key Findings (Updated With Real Data)
+# Key Findings
 
 - Over **139,000+ attacks** were recorded across the honeypot in four days.  
 - Individual honeypot services received:  
