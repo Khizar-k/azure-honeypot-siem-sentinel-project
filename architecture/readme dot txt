@@ -1,9 +1,0 @@
-This folder contains the architecture diagram for the Azure honeypot project.
-
-The diagram shows:
-• Internet attackers sending traffic to the honeypot virtual machine
-• The honeypot forwarding Syslog and security logs to Log Analytics
-• Log Analytics sending ingested data to Microsoft Sentinel
-• Dashboards used to view local honeypot attack data
-
-
