@@ -14,6 +14,7 @@ The following diagram shows the entire honeypot pipeline, including the Azure VM
 
 ![Architecture Diagram](screenshots/Honeypot-Project/HP-architecture.drawio.png)
 
+
 ---
 
 # Overview
