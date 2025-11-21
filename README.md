@@ -1,6 +1,6 @@
 # Azure Honeypot SIEM Project
 
-This project demonstrates how I deployed a Linux Linux honeypot in Azure, exposed it to the public internet, collected Syslog events, ingested them into Microsoft Sentinel, and analyzed over **139,000+ real-world cyberattacks** using KQL, dashboards, and custom detections.
+This project demonstrates how I deployed a Linux honeypot in Azure, exposed it to the public internet, collected Syslog events, ingested them into Microsoft Sentinel, and analyzed over **139,000+ real-world cyberattacks** using KQL, dashboards, and custom detections.
 
 All images for this project are stored in:
 
